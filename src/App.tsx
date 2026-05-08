@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import { AnimatePresence } from 'framer-motion'
 import {
   Header,
   HeroSection,
@@ -9,13 +7,10 @@ import {
   PressSection,
   ContactSection,
   Footer,
-  LoadingScreen,
   CustomCursor,
 } from './components'
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false)
-
   return (
     <>
       <CustomCursor />
