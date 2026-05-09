@@ -116,14 +116,14 @@ export function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="absolute left-0 right-0 top-full bg-cream dark:bg-charcoal px-6 py-8 shadow-lg md:hidden"
+            className="absolute left-1 right-1 top-full bg-cream dark:bg-charcoal px-4 py-6 shadow-xl md:hidden rounded-b-xl mx-2"
           >
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <button
                   key={link.href}
                   onClick={() => scrollToSection(link.href)}
-                  className="font-sans text-left text-lg tracking-wider text-charcoal transition-colors hover:text-gold dark:text-cream dark:hover:text-gold"
+                  className="font-sans text-left text-base tracking-wider text-charcoal transition-colors hover:text-gold dark:text-cream dark:hover:text-gold"
                 >
                   {link.label}
                 </button>
