@@ -30,19 +30,19 @@ const galleryImages = [
   },
   {
     id: '5',
-    src: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=800&auto=format&fit=crop',
     alt: 'Prenda de alpaca en atelier',
     span: ''
   },
   {
     id: '6',
-    src: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop',
     alt: 'Fashion editorial en exteriores',
     span: ''
   },
   {
     id: '7',
-    src: 'https://images.unsplash.com/photo-1551232864-3f522363a86b?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop',
     alt: 'Sesión de trabajo en taller de diseño',
     span: 'col-span-2'
   },
@@ -90,21 +90,24 @@ export function GallerySection() {
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[200px]"
         >
           {galleryImages.map((image, index) => (
-            <motion.button
-              key={image.id}
+<motion.button
               variants={{
                 hidden: { opacity: 0, scale: 0.9 },
                 visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
               }}
               whileHover={{ scale: 1.02 }}
               onClick={() => setSelectedImage(index)}
-              className={`relative overflow-hidden bg-charcoal/5 ${image.span} cursor-pointer`}
+              className={`relative overflow-hidden bg-charcoal/10 ${image.span} cursor-pointer`}
             >
               <img
                 src={image.src}
                 alt={image.alt}
                 className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                 loading="lazy"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none'
+                  e.currentTarget.parentElement?.classList.add('bg-gold/20')
+                }}
               />
               <div className="absolute inset-0 bg-gold/0 transition-colors duration-300 hover:bg-gold/10" />
             </motion.button>

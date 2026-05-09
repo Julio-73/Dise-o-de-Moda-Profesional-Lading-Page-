@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-3">
             <span className="font-serif text-xl font-medium text-charcoal dark:text-cream">
-              Valentina Ríos
+              Sasha Fiorella
             </span>
           </div>
 
@@ -44,7 +44,7 @@ export function Footer() {
           className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-charcoal/10 pt-8 dark:border-cream/10 md:flex-row"
         >
           <p className="font-sans text-xs text-charcoal/30 dark:text-cream/30">
-            © 2026 Valentina Ríos. Todos los derechos reservados.
+            © 2026 Sasha Fiorella. Todos los derechos reservados.
           </p>
           <a
             href="#"

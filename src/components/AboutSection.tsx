@@ -44,8 +44,8 @@ export function AboutSection() {
             className="relative aspect-[4/5] overflow-hidden"
           >
             <img
-              src="https://images.unsplash.com/photo-1551232864-3f522363a86b?q=80&w=800&auto=format&fit=crop"
-              alt="Valentina Ríos trabajando en su taller de diseño"
+              src="https://images.unsplash.com/photo-1566206091558-7f218b6730cf?q=80&w=800&auto=format&fit=crop"
+              alt="Sasha Fiorella trabajando en su taller de diseño"
               className="h-full w-full object-cover"
               loading="lazy"
             />
@@ -90,7 +90,7 @@ export function AboutSection() {
                   strokeLinecap="round"
                 />
                 <text x="100" y="45" textAnchor="middle" className="font-serif text-xs italic" fill="currentColor">
-                  Valentina Ríos
+                  SF
                 </text>
               </svg>
             </div>

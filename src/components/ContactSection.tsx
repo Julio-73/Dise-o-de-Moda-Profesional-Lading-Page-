@@ -5,8 +5,8 @@ import { FaPinterest, FaWhatsapp } from 'react-icons/fa'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const socialLinks = [
-  { name: 'Instagram', icon: FiInstagram, url: 'https://instagram.com/valentinarios_official' },
-  { name: 'Pinterest', icon: FaPinterest, url: 'https://pinterest.com/valentinarios' },
+  { name: 'Instagram', icon: FiInstagram, url: 'https://instagram.com/sashafiorella' },
+  { name: 'Pinterest', icon: FaPinterest, url: 'https://pinterest.com/sashafiorella' },
   { name: 'WhatsApp', icon: FaWhatsapp, url: 'https://wa.me/51999999999' },
 ]
 

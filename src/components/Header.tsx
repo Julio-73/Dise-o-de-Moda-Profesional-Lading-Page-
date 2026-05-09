@@ -53,7 +53,7 @@ export function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
         <a href="#" className="font-serif text-2xl font-medium text-charcoal dark:text-cream">
-          VR
+          SF
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

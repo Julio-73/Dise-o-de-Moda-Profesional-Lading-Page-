@@ -16,7 +16,7 @@ export function HeroSection() {
       <motion.div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1920&auto=format&fit=crop')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1080&auto=format&fit=crop')`,
           y,
         }}
       />
@@ -32,7 +32,7 @@ export function HeroSection() {
           transition={{ duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-white"
         >
-          Valentina Ríos
+          Sasha Fiorella
         </motion.h1>
         
         <motion.p

@@ -19,7 +19,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
           transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
           className="font-serif text-8xl font-medium text-gold"
         >
-          VR
+          SF
         </motion.div>
       </div>
       
