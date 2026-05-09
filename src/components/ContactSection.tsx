@@ -30,7 +30,7 @@ export function ContactSection() {
 
   return (
     <section id="contacto" ref={ref} className="bg-cream px-6 py-24 dark:bg-charcoal">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}

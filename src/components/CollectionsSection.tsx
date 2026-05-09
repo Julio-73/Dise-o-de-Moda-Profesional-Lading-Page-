@@ -74,7 +74,7 @@ export function CollectionsSection() {
 
   return (
     <section id="colecciones" ref={ref} className="bg-cream px-6 py-24 dark:bg-charcoal">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-8xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}

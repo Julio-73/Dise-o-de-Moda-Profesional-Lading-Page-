@@ -51,7 +51,7 @@ export function Header() {
           : 'bg-transparent'
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
+      <div className="mx-auto flex max-w-8xl items-center justify-between px-8 py-6">
         <a href="#" className="font-serif text-2xl font-medium text-charcoal dark:text-cream">
           SF
         </a>
