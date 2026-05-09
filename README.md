@@ -1,4 +1,4 @@
-# Valentina Ríos - Landing Page
+# Diseño de Moda - Landing Page
 
 Elegante landing page minimalista para diseñadora de moda profesional. Construida con React, TypeScript, Framer Motion y Tailwind CSS.
 
@@ -69,48 +69,6 @@ src/
 └── index.css
 ```
 
-## Personalización
-
-### Cambiar Nombre de la Diseñadora
-
-Editar en `src/components/HeroSection.tsx`:
-```tsx
-Valentina Ríos
-```
-
-### Cambiar Paleta de Colores
-
-Modificar `tailwind.config.js`:
-```js
-colors: {
-  cream: '#faf9f6',
-  charcoal: '#1a1a1a',
-  gold: '#c9a47d',
-  terracotta: '#e07a5f',
-}
-```
-
-### Cambiar Imágenes
-
-Reemplazar las URLs de Unsplash en cada componente con las imágenes deseadas.
-
-### Agregar API de Instagram
-
-1. Crear cuenta de desarrollador en Meta
-2. Obtener Access Token
-3. Agregar en `.env`:
-```
-VITE_INSTAGRAM_ACCESS_TOKEN=your_token
-```
-
-## Despliegue
-
-### Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
 
 ### Netlify
 
@@ -119,6 +77,16 @@ npm install -g netlify-cli
 netlify deploy
 ```
 
-## Licencia
+## Contacto 
 
-MIT
+Linkedin: 
+https://www.linkedin.com/in/julio-cesar-quispe-garrido/
+
+Correo:
+julioquispegarrido132@gmail.com
+
+link:
+https://fashionpag.netlify.app/
+
+
+
